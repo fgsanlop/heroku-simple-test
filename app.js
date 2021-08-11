@@ -6,7 +6,7 @@ const usuarioController = require('./controller/usuario.controller');
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
-app.use('/api', usuarioController);
+app.use(usuarioController);
 
 app.listen(PORT, async () => {
     try {
