@@ -14,8 +14,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "mysql2": "^2.3.0",
-    "nodemon": "^2.0.10",
-    "sequelize": "^6.6.5",
-    "tedious": "^11.0.9"
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {     
+    "nodemon": "^2.0.10"
   }
 }
